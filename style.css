@@ -1,0 +1,117 @@
+body{
+	margin: 0;
+	padding: 5;
+	font-family: Verdana;
+	width: 100%;
+}
+
+header{
+	background-color: #B6FF9E;
+	color: black;
+	overflow: hidden;
+	width: 100%;
+}
+
+.left{
+	float: left;
+	width: 45%;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.right{
+	float: right;
+	width: 40%;+
+}
+
+.right li{
+	padding: 10px;
+	font-size: 20px;
+	text-decoration-style: none;
+	list-style: none;
+	display: inline;
+}
+
+.right li a{
+	color: black;
+	text-decoration: none;
+	transition: 1.5s;
+}
+
+.right li a:hover{
+	color: #9EFFE8;
+}
+
+#content{
+	margin: 8 auto;
+	width: 100%;
+	background-color: #C69EFF;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+#content img{
+	width: 100%;
+	margin-top: 10px; 
+}
+
+#content h2,h3{
+	text-align: center;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+#content p{
+	text-align: justify;
+	padding: 20px;
+	font-size: 25px;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	color: black;
+	text-align: center;
+	width: 100%;
+	background-color: #9EC0FF;
+}
+
+form{
+	width: 50%;
+	margin: 0 auto;
+}
+
+form input{
+	width:100%;
+	padding: 10px;
+	transition: 1s;
+}
+
+form input:focus{
+	background-color: #9EC0FF;
+	color: black; 
+}
+
+form textarea:focus{
+	background-color: #9EC0FF;
+	color: black; 
+}
+
+label{
+	display: block;
+}
+
+form p{
+	display: hidden;
+	font-family: Brush Script MT;
+	font-size: 2px;
+	color: red;
+}
+
+#content .img{
+	width: 50%;
+	padding-left: 25%;
+	height: 500px;
+	margin-top: 10px; 
+}
